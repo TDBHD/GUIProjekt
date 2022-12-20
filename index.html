@@ -1,167 +1,152 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <title>Silber Reisen</title>
-    </head>
-    
-    <body>
-  <!-- Source  modified https://flowbite.com/docs/components/navbar/-->
-    <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-        <div class="container flex flex-wrap items-center justify-between mx-auto">
-            <a href="https://flowbite.com/" class="flex items-center">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo">
-                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-            </a>
-            <div class="flex md:order-2">
-                <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
-                <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                </button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Silber Reisen</title>
+</head>
+
+<body>
+<!-- Source  modified https://flowbite.com/docs/components/navbar/-->
+<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="container flex flex-wrap items-center justify-between mx-auto">
+        <a href="#" class="flex items-center">
+            <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Silber Reisen Logo">
+            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Silber Reisen</span>
+        </a>
+        <div class="flex md:order-2">
+            <button type="button"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Anmelden
+            </button>
+            <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                          clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+            <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <li>
+                    <a href="index.html"
+                       class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                       aria-current="page">Startseite</a>
+                </li>
+                <li>
+                    <a href="/html/reiseziele.html"
+                       class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reiseziele</a>
+                </li>
+                <li>
+                    <a href="/html/reisethemen.html"
+                       class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reisethemen</a>
+                </li>
+                <li>
+                    <a href="/html/kontakt.html"
+                       class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--  Gallery Source modified https://tailwind-elements.com/docs/standard/components/gallery/-->
+
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div class="flex w-full mb-20 flex-wrap">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Entdecken Sie Europa</h1>
+            <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Geführte Touren schon ab 300€</p>
+        </div>
+        <div class="flex flex-wrap md:-m-2 -m-1">
+            <div class="flex flex-wrap w-1/2">
+                <div class="md:p-2 p-1 w-1/2">
+                    <img alt="gallery" class="w-full object-cover h-full object-center block"
+                         src="/img/tirol.jpg">
+                </div>
+                <div class="md:p-2 p-1 w-1/2">
+                    <img alt="gallery" class="w-full object-cover h-full object-center block"
+                         src="/img/lueneburgerheide.webp">
+                </div>
+                <div class="md:p-2 p-1 w-full">
+                    <img alt="gallery" class="w-full h-full object-cover object-center block"
+                         src="/img/ischiaosterreich.jpg">
+                </div>
             </div>
-            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-                    </li>
-                </ul>
+            <div class="flex flex-wrap w-1/2">
+                <div class="md:p-2 p-1 w-full">
+                    <img alt="gallery" class="w-full h-full object-cover object-center block"
+                         src="/img/cotedazur.jpg">
+                </div>
+                <div class="md:p-2 p-1 w-1/2">
+                    <img alt="gallery" class="w-full object-cover h-full object-center block"
+                         src="/img/fjorde.jpg">
+                </div>
+                <div class="md:p-2 p-1 w-1/2">
+                    <img alt="gallery" class="w-full object-cover h-full object-center block"
+                         src="/img/sylt.jpg">
+                </div>
             </div>
         </div>
-    </nav>
-
-<!--  Carousel Source modified https://www.folkstalk.com/tech/tailwind-css-carousel-with-code-examples/-->
-  <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
-      <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-          <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-          ></button>
-          <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-          ></button>
-          <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-          ></button>
-      </div>
-      <div class="carousel-inner relative w-full overflow-hidden">
-          <div class="carousel-item active relative float-left w-full">
-              <img
-                      src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-                      class="block w-full"
-                      alt="..."
-              />
-              <div class="carousel-caption hidden md:block absolute text-center">
-                  <h5 class="text-xl">First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-              </div>
-          </div>
-          <div class="carousel-item relative float-left w-full">
-              <img
-                      src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
-                      class="block w-full"
-                      alt="..."
-              />
-              <div class="carousel-caption hidden md:block absolute text-center">
-                  <h5 class="text-xl">Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-              </div>
-          </div>
-          <div class="carousel-item relative float-left w-full">
-              <img
-                      src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-                      class="block w-full"
-                      alt="..."
-              />
-              <div class="carousel-caption hidden md:block absolute text-center">
-                  <h5 class="text-xl">Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-              </div>
-          </div>
-      </div>
-      <button
-              class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev"
-      >
-          <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-              class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next"
-      >
-          <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-      </button>
-  </div>
+    </div>
 
 
-  <!--
-  Source modiefied :https://tailwindui.com/components/preview
-This example requires some changes to your config:
+</section>
+<!--Source modified: https://tailwindui.com/components/ecommerce/components/category-previews-->
+<!--Urlaubsreiseziele -->
+<div class="bg-gray-100">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+            <h2 class="text-2xl font-bold text-gray-900">Machen Sie Urlaub in Asien</h2>
 
-```
-// tailwind.config.js
-module.exports = {
-  // ...
-  plugins: [
-    // ...
-    require('@tailwindcss/aspect-ratio'),
-  ],
-}
-```
--->
-  <div class="bg-white">
-      <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-          <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+            <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+                <div class="group relative">
+                    <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                        <img src="/img/halongbayvietnam.jpg" alt="Ha Long Buchten in Vietnam" class="h-full w-full object-cover object-center">
+                    </div>
+                    <h3 class="mt-6 text-sm text-gray-500">
+                        <a href="#">
+                            <span class="absolute inset-0"></span>
+                            ab 450€
+                        </a>
+                    </h3>
+                    <p class="text-base font-semibold text-gray-900">Vietnam Ha Long Bay</p>
+                </div>
 
-          <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-              <div class="group relative">
-                  <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-                      <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                  </div>
-                  <div class="mt-4 flex justify-between">
-                      <div>
-                          <h3 class="text-sm text-gray-700">
-                              <a href="#">
-                                  <span aria-hidden="true" class="absolute inset-0"></span>
-                                  Basic Tee
-                              </a>
-                          </h3>
-                          <p class="mt-1 text-sm text-gray-500">Black</p>
-                      </div>
-                      <p class="text-sm font-medium text-gray-900">$35</p>
-                  </div>
-              </div>
+                <div class="group relative">
+                    <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                        <img src="/img/fuji.jpg" alt="Berg Fuji in Japan" class="h-full w-full object-cover object-center">
+                    </div>
+                    <h3 class="mt-6 text-sm text-gray-500">
+                        <a href="#">
+                            <span class="absolute inset-0"></span>
+                            ab 700€
+                        </a>
+                    </h3>
+                    <p class="text-base font-semibold text-gray-900">Entdecken sie Japans Berg Fuji mit Reiseführung</p>
+                </div>
 
-              <!-- More products... -->
-          </div>
-      </div>
-  </div>
-    </body>
+                <div class="group relative">
+                    <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                        <img src="/img/korea.jpg" alt="Koreanischer Tempel" class="h-full w-full object-cover object-center">
+                    </div>
+                    <h3 class="mt-6 text-sm text-gray-500">
+                        <a href="#">
+                            <span class="absolute inset-0"></span>
+                            ab 800€
+                        </a>
+                    </h3>
+                    <p class="text-base font-semibold text-gray-900">Entdecken Sie Korea</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
