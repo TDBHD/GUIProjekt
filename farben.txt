@@ -1,0 +1,4 @@
+primary: #9CCDF2
+secondary: #DA9CF2
+third: #F2C49C
+fourth: #E7F29C
